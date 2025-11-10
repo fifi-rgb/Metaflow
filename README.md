@@ -1,5 +1,9 @@
 # MetaFlow - Enterprise Data Pipeline Framework
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![PySpark 3.3+](https://img.shields.io/badge/PySpark-3.3+-orange.svg)](https://spark.apache.org/)
+
 MetaFlow is a comprehensive PySpark-based framework for building scalable data pipelines with support for batch, streaming, and incremental processing.
 
 ## Features
@@ -36,4 +40,4 @@ MetaFlow is a comprehensive PySpark-based framework for building scalable data p
 ### Installation
 
 ```bash
-pip install pyspark delta-spark
+pip install pyspark delta-spark kafka-python psycopg2-binary
