@@ -1,0 +1,44 @@
+{
+  "annotations": {
+    "list": [
+      {
+        "builtIn": 1,
+        "datasource": "-- Grafana --",
+        "enable": true,
+        "hide": true,
+        "iconColor": "#ff0000",
+        "name": "Annotations & Alerts",
+        "type": "dashboard"
+      }
+    ]
+  },
+  "panels": [
+    {
+      "datasource": "Prometheus",
+      "fieldConfig": {
+        "defaults": {},
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 24,
+        "x": 0,
+        "y": 0
+      },
+      "id": 1,
+      "options": {},
+      "targets": [
+        {
+          "expr": "up",
+          "legendFormat": "instance",
+          "refId": "A"
+        }
+      ],
+      "title": "Instance Up",
+      "type": "timeseries"
+    }
+  ],
+  "schemaVersion": 34,
+  "title": "Metaflow Metrics",
+  "version": 1
+}
